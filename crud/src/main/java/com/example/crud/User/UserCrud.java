@@ -3,7 +3,7 @@ package com.example.crud.User;
 import jakarta.persistence.*;
 
 @Entity
-public class User {
+public class UserCrud {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
